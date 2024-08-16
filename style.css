@@ -1,0 +1,175 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* -----------------------------------------Navbar----------------------- */
+.navbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(315deg, #ffffff, #fff9f9);
+box-shadow:  -20px -20px 60px #d8cece,
+             20px 20px 60px #dad2d2;
+
+}
+.logo-location{
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+
+}
+.ul{
+    display: flex;
+    text-align: center;
+    list-style-type:none ;
+    justify-content: space-between;
+    margin-right: 100px;
+
+}
+.li{
+    margin-left: 90px;
+}
+.li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.location{
+    margin-top: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.bi-chevron-down:hover{
+    color: orangered;
+}
+.other{
+    border-bottom: solid black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.img-logo{
+    width: 50px;
+    height: 60px;
+    object-fit: cover;
+    padding: 5px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+/* -------------------------------Body Begins----------------- */
+.boody{
+    width: auto;
+    height: 2600px;
+    padding-top: 120px;
+    /* background-color: red; */
+    
+
+
+}
+/* ------------------------------Cards----------------------- */
+.head{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.card-body{
+    width: auto;
+    height:500px;
+    margin: 0px 150px;
+    padding: 5px;
+
+}
+.card-flex{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.box{
+    width: 230px;
+    height: 270px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.img{
+    object-fit:cover;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+}
+.name{
+    margin: 10px;
+}
+.area{
+    margin: 3px 10px;
+}
+.type{
+    margin: 3px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+
+}
+.rating{
+    margin: 10px;
+}
+.bi-star-fill{
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    padding: 2px 4px;
+
+
+}
+/* -----------------------------------Filter------------------ */
+.btn-flex{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.btn{
+    background-color: white;
+    padding: 8px;
+    margin-left: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #fff9f9;
+box-shadow:  20px 20px 60px #d3caca,
+             -20px -20px 60px #fff9f9;
+
+}
+/* --------------------Details-------------------------- */
+.head{
+
+    list-style-type: none;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ch{
+
+    list-style-type: none;
+    margin-top: 10px;
+    color: white;
+
+}
+.details{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+.ul_box{
+    margin:0px 42px;
+}
+
+
